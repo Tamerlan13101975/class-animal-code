@@ -9,6 +9,12 @@ class Animal():
     def make_sound(self):
         pass
 
-    
+class Bird(Animal):
+    def make_sound(self):
+        print("чирик чирик")
+
+
+
+
 
 
