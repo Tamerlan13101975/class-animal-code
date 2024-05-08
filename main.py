@@ -19,7 +19,10 @@ class Mammal(Animal):
         print("гав гав")
 
 
-
+class Reptile(Animal):
+    def make_sound(self):
+        print("шсшсшсшш")
+        
 
 
 
