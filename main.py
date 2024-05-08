@@ -33,6 +33,15 @@ class Zoo():
     def __init__(self):
         self.animals = []
         self.staff = []
-        
 
+
+    def add_animal(self, animal):
+        self.animals.append(animal)
+        print(f"Животное{animal}добавлено в зоопарк")
+
+
+
+    def add_staff(self, new_staff):
+        self.staff.append(new_staff)
+        print(f"Сотрудник{new_staff}добавлено в зоопарк")
 
