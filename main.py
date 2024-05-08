@@ -14,6 +14,11 @@ class Bird(Animal):
         print("чирик чирик")
 
 
+class Mammal(Animal):
+    def make_sound(self):
+        print("гав гав")
+
+
 
 
 
