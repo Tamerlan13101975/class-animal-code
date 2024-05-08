@@ -45,3 +45,6 @@ class Zoo():
         self.staff.append(new_staff)
         print(f"Сотрудник{new_staff}добавлено в зоопарк")
 
+class ZooKeeper():
+    def feed_animal(self, animal):
+        print(f"Сотрудник кормит животное{animal. name}")
