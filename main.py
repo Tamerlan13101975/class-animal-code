@@ -6,10 +6,13 @@ class Animal():
     def eat(self):
         print(f"{self.name} кушает")
 
+
     def make_sound(self):
         pass
 
+
 class Bird(Animal):
+
     def make_sound(self):
         print("чирик чирик")
 
@@ -40,11 +43,17 @@ class Zoo():
         print(f"Животное{animal}добавлено в зоопарк")
 
 
-
     def add_staff(self, new_staff):
         self.staff.append(new_staff)
         print(f"Сотрудник{new_staff}добавлено в зоопарк")
 
+
 class ZooKeeper():
     def feed_animal(self, animal):
         print(f"Сотрудник кормит животное{animal. name}")
+
+
+
+class Veterinarian():
+    def heal_animal(self, animal):
+        print(f"Ветеринар лечит животное{animal. name}")
