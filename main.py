@@ -29,3 +29,10 @@ class Reptile(Animal):
             animal.make_sound()
 
 
+class Zoo():
+    def __init__(self):
+        self.animals = []
+        self.staff = []
+        
+
+
