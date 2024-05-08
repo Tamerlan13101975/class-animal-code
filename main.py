@@ -22,7 +22,10 @@ class Mammal(Animal):
 class Reptile(Animal):
     def make_sound(self):
         print("шсшсшсшш")
-        
 
+
+    def animal_sound(animals):
+        for animal in animals:
+            animal.make_sound()
 
 
